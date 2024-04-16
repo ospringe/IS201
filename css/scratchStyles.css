@@ -1,0 +1,106 @@
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 251, 245);
+}
+
+#header{
+    background-color: rgb(56, 52, 50);
+    color: rgb(255, 251, 245);
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+nav{
+    padding: 10px;
+    background-color: rgb(255, 209, 244);
+    overflow: hidden;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+
+nav a:hover{
+    background-color: rgb(255, 195, 241);
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+    padding: 5px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: rgb(255, 209, 244);
+}
+
+.alignment{
+    text-align: center;
+}
+
+.alignment2{
+    display:inline-block;
+    text-align: left;
+}
+
+.listfont{
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+.special{
+    color: black;
+    text-decoration: none;
+}
+
+.special:hover{
+    color: rgb(255, 209, 244);
+    text-decoration: none;
+}
+
+.topofpage{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topofpage1{
+    text-align: center;
+}
+
+#footer{
+    background-color: rgb(56, 52, 50);
+    color: rgb(255, 251, 245);
+    text-align: center;
+    padding: 7px;
+    font-size: 10px;
+}
